@@ -1,0 +1,104 @@
+#print("First Python")
+
+#x = 2
+#if x==2:
+#    print ("x is " + str(x))
+
+
+#class myClass:
+#    aVariable = "a"
+
+#    def function(myClass):
+#        print("Calling Self.")
+
+#instantiatedMyClass = myClass()
+
+#print(instantiatedMyClass.aVariable)
+
+#instantiatedMyClass.aVariable = "b"
+
+#print(instantiatedMyClass.aVariable)
+
+#print(instantiatedMyClass.function())
+
+
+#Vehicle Class 
+#class Vehicle:
+#    price=0
+#    color=""
+#    name=""
+#    type = ""
+
+#    def description(vehicle):
+#        descriptionString = "%s is a %s %s worth $%.2f." % (vehicle.name,vehicle.color,vehicle.type,vehicle.price)
+#        return descriptionString
+
+#car1 = Vehicle()
+#car2 = Vehicle()
+
+#car1.color = "red"
+#car1.price =  60000
+#car1.name  = "Fer"
+#car1.type  = "convertible"
+
+#car2.color = "blue"
+#car2.price = 10000
+#car2.type  = "van"
+#car2.name  = "Jump"
+
+
+
+#print(car1.description())
+#print(car2.description())
+
+
+#Python Dictionaries
+
+#pythonDictionary = {}
+#pythonDictionary["entry1"] = 8058864839
+#pythonDictionary["entry2"] = 8058862386
+#pythonDictionary["entry3"] = 8052454389
+#print(pythonDictionary)
+
+#PythonDictionary full instantiation 
+#pythonDictionary2 = {
+#    "entry1" : 8058864839,
+#    "entry2" : 8058862386,
+#    "entry3" : 8052454389
+#}
+#print(pythonDictionary2)
+
+
+#for character in "name":
+#    print(character)
+#    print("\n")
+      
+
+#class Solution(object):
+#    def defangIPaddr(address):
+#        return address.replace(".","[.]")
+
+#print(Solution.defangIPaddr("1.1.1.1"))
+
+#uppercase = "UPPeR CasE"
+
+#print(uppercase.lower())
+
+#listLearning = []
+#listLearning.insert(0,"item1")
+#listLearning.append("item2")
+#listLearning.pop(1)
+#listLearning.insert(2,"itemat3")
+#for item in listLearning: 
+#    print(item)
+
+
+#a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+#input = input("enter number: ")
+
+#for number in a:
+#    if number < int(input):
+#        print(number)
+
+print([1,2,3]*3)
